@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MovieData = data.MovieData;
 
+// Header for movies page
 class Head extends React.Component {
   render() {
     return (
@@ -17,10 +18,12 @@ class Head extends React.Component {
   }
 }
 
+// This allows for styling within the file. This is specifically for the table width
 const divStyle = {
   width: '60%',
 };
 
+// Function pulls all movies from json and displays them as a table
 function MovieList() {
   return (
     <>

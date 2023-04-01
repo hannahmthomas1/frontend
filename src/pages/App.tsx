@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Welcome class holds the image, the title and blurb about the page
 class Welcome extends React.Component {
   render() {
     return (
@@ -25,6 +26,7 @@ class Welcome extends React.Component {
   }
 }
 
+// Home function calls the Welcome funtion
 function Home() {
   return (
     <div>

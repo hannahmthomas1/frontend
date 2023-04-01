@@ -2,8 +2,7 @@ import React from 'react';
 import data from '../MovieData.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const MovieData = data.MovieData;
-
+// Simple page introducing podcast
 class Head extends React.Component {
   render() {
     return (
